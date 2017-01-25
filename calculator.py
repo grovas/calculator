@@ -7,7 +7,7 @@ As output user can choose from several mathematical operation.
 Logic layer:
     -
 
-ver. 0.1
+ver. 0.2
 
 Grovas - Artur Rozgowski <arczir@gmail.com>
 
