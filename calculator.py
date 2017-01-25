@@ -4,6 +4,7 @@ This is a simple calculator application written for Python 3.x and for exercise 
 As input program expect 2 numbers.
 As output user can choose from several mathematical operation.
 
+ver. 0.1
 
 Grovas - Artur Rozgowski <arczir@gmail.com>
 
@@ -129,7 +130,7 @@ def mod(numbers):
 def main():
     first_calculation = ""
     whatCalculationToDo = ""
-    end_program = ""
+    #end_program = False
     decision = ""
     list_number = []  # program save input numbers to the list
 
@@ -141,8 +142,9 @@ def main():
 
     end_program = print_result(list_number, resultFromCalculation)
     while True:
-        if end_program != 'y': # check if user want to end program
-            if new_calculation() == 'y': # check if continue with a new numebers
+        end_program = False
+        if end_program == False:  # check if user want to end program
+            if new_calculation() == 'y':  # check if continue with a new numebers
                 list_number = []
 
                 list_number = get_numbers()
