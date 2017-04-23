@@ -1,4 +1,4 @@
-# This repository contains sample one file programs written in Python 3.x
+# This repository contains sample one file program written in Python 3.x
 
 Program list:
 
